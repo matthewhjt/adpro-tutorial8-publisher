@@ -6,10 +6,20 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 
 It means both subscriber and publisher are connecting to the same AMPQ broker. The publisher publishes to the same broker as the one that the subscribers are subscribed to.
 
+- RabbitMQ
+  
 ![alt text](rabbitmq.png)
+
+- Console
 
 Publisher terminal when running the app:
 ![alt text](publisher.png)
 
 Subscriber terminal when publisher publishes message:
 ![alt text](subscriber.png)
+
+- Spikes
+
+![alt text](spike.png)
+
+The spikes in the second chart refer to the number of messages that were sent from the publisher.
